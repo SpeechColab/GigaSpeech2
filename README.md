@@ -18,13 +18,10 @@ GigaSpeech 2 version: 2.0.0 (06/09/2024)
 * GigaSpeech 2 DEV & TEST: 10 hours for DEV and 10 hours for TEST per language, **transcribed by professional human annotators**, challenging and realistic.
 
 ### Subsets
-| Subset    |    Hours    |  Remarks  |
-|:---------------:|:-------------:|:-------------|
-| XS |  10        | System building and debugging |
-| S  |  250        | Quick research experiments |
-| M  |  1,000      | Large-scale research experiments |
-| L  |  2,500      | Medium-scale industrial experiments |
-| XL |  10,000    | Large-scale industrial experiments |
+|                      |    Thai    |  Indonesian  | Vietnamese |
+|:--------------------:|:----------:|:-------------|:-----------|
+| GigaSpeech 2 raw     |  12901.8   | 8112.9       | 7324.0     |
+| GigaSpeech 2 refined |  10262.0   | 5714.0       | 6039.0     |
 
 
 ### Preparation Scripts
