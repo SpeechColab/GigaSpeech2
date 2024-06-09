@@ -45,7 +45,8 @@ Please cite our paper if you find this work useful:
 
 ## Contact
 If you have any concerns, please contact gigaspeech@speechcolab.org.
-If you have any technical questions, please contact yifanyeung@sjtu.edu.cn.
+
+If you have any technical problems, please contact yifanyeung@sjtu.edu.cn.
 
 ## Metadata Changelog
 [TODO]
