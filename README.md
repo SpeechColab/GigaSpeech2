@@ -27,7 +27,7 @@ GigaSpeech 2 version: 2.0.0 (06/09/2024)
 ### Preparation Scripts
 [TODO]
 
-### Metadata walkthrough
+### Metadata Walkthrough
 [TODO]
 
 ### Audio Processing
