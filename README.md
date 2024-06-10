@@ -2,7 +2,7 @@
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yfyeung/gigaspeech2/master/docs/source/_static/pipeline.pdf" width=300>
+<img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.pdf" width=300>
 </div>
 
 GigaSpeech 2 version: 2.0 (TODO)
