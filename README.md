@@ -1,13 +1,22 @@
 # GigaSpeech 2
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
 
-GigaSpeech 2 version: 2.0.0 (06/09/2024)
+GigaSpeech 2 version: 2.0 (TODO)
 
 ## Download
 [TODO]
 
 ## Leaderboard
-[TODO]
+
+| **Contributor**| **Toolkit**       | **Train Recipe**     | **Train Data** | **Inference**     |**Test CER/WER**    |
+|:---------------|:------------------|:------------------|:------------------|:------------------|:------------------:|
+|||||
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 th | TODO | 12.46 | 
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 id | TODO | 14.92 | 
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 vi | TODO | 12.83 | 
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 th | TODO | 13.70 |
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 id | TODO | 15.50 |
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 vi | TODO | 15.60 |
 
 ## Dataset
 
