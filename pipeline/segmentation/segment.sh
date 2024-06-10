@@ -1,4 +1,5 @@
 #! /usr/bin/bash
+
 manifest_dir=${1%/}
 output_dir=${2%/}
 

@@ -1,4 +1,5 @@
 #! /usr/bin/bash
+
 output_dir=${2%/}
 
 while IFS= read -r manifest; do

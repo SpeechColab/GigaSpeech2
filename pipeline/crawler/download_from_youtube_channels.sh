@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/bash
 
 echo "Language: $3"
 echo "Read channels from file: $1, save to: $2"
