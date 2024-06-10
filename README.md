@@ -1,11 +1,11 @@
 # GigaSpeech 2
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
 
+GigaSpeech 2 version: 2.0 (TODO)
+
 <div align="center">
 <img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.png" width=800>
 </div>
-
-GigaSpeech 2 version: 2.0 (TODO)
 
 ## Download
 [TODO]
