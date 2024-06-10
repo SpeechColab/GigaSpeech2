@@ -1,9 +1,3 @@
-[submodule "uroman"]
-	path = uroman
-	url = https://github.com/isi-nlp/uroman.git
-[submodule "pipeline/uroman"]
-	path = pipeline/uroman
-	url = https://github.com/isi-nlp/uroman.git
 [submodule "pipeline/utils/uroman"]
 	path = pipeline/utils/uroman
 	url = https://github.com/isi-nlp/uroman.git
