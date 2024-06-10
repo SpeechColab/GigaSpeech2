@@ -15,5 +15,5 @@ Thai PBS News  @ThaiPBSNews
 
 ### Start the download process
 ```
-./download_from_youtube_channels.sh channels.txt ~/download
+./download_from_youtube_channels.sh channels.txt ~/download th
 ```

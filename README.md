@@ -1,5 +1,5 @@
 # GigaSpeech 2
-This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our NeurIPS paper: [TODO]
+This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
 
 GigaSpeech 2 version: 2.0.0 (06/09/2024)
 
