@@ -9,8 +9,8 @@ You need to create a list of YouTube channel names from which you intend to down
 
 For example:
 ```
-Thairath Online  @thairathonline
-Thai PBS News  @ThaiPBSNews
+Youth With You  @iQIYIYouthWithYou
+KUN  @kun_global
 ```
 
 ### Start the download process
