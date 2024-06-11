@@ -1,9 +1,9 @@
 # GigaSpeech 2
 <div align="left">
-    <p><img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.png" width=800></p>
     <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="version">
     <img src="https://img.shields.io/badge/TorchAudio-2.1.0%2B-orange" alt="version">
     <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
+    <p><img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.png" width=800></p>
 </div>
 
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
