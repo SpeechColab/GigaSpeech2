@@ -11,6 +11,7 @@ For example:
 ```
 Youth With You  @iQIYIYouthWithYou
 KUN  @kun_global
+Kun's Official Channel  @kunsofficialchannel6831
 ```
 
 ### Start the download process
