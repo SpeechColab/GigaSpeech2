@@ -3,6 +3,7 @@
     <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="version">
     <img src="https://img.shields.io/badge/TorchAudio-2.1.0%2B-orange" alt="version">
     <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
+    <p></p>
     <p><img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.png" width=800></p>
 </div>
 
