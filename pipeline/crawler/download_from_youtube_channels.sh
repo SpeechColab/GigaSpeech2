@@ -20,7 +20,8 @@ do
     --download-archive $log_dir/audios_$channel_name.txt \
     --sub-format vtt \
     --sub-langs $lang \
-    https://www.youtube.com/${channel}/videos -o ${2}/$channel_name'/%(title).20s#%(channel_id)s#%(id)s_%(duration)s.%(ext)s' > $log_dir/$channel_name.log
+    https://www.youtube.com/${channel}/videos -o ${2}/$channel_name'/%(title).20s#%(channel_id)s#%(id)s_%(duration)s.%(ext)s' \
+    > $log_dir/$channel_name.log
 done < $1
 echo "Finished."
 
