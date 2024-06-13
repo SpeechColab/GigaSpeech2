@@ -80,6 +80,8 @@ We are a group of volunteers trying to make speech technologies easier to use. W
 | [Shanghai Jiao Tong University](https://www.seiee.sjtu.edu.cn/) | Computing power; Data host; Researchers |
 | [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html) | Researchers |
 | [Tsinghua University](https://www.ee.tsinghua.edu.cn/en/) | Researchers |
+| [Seasalt AI](https://seasalt.ai/) | Researchers |
+| [Birch AI](https://birch.ai/) | Computing power |
 | [Dataocean AI](https://en.haitianruisheng.com/) | Evaluation data annotation |
 
 ## Citation
