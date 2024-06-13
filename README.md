@@ -1,7 +1,7 @@
 # GigaSpeech 2
 <div align="left">
-    <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="version">
-    <img src="https://img.shields.io/badge/TorchAudio-2.1.0%2B-orange" alt="version">
+    <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="Linux">
+    <img src="https://img.shields.io/badge/TorchAudio-2.1.0%2B-orange" alt="TorchAudio">
     <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
 </div>
 
