@@ -36,12 +36,21 @@ GigaSpeech 2 version: 2.0 (TODO)
 * GigaSpeech 2 refined: 10,000 hours of Thai, 6,000 hours each for Indonesian and Vietnamese.
 * GigaSpeech 2 DEV & TEST: 10 hours for DEV and 10 hours for TEST per language, **transcribed by professional human annotators**, challenging and realistic.
 
-### Subsets
+### Training Subsets
 |                      |    Thai    |  Indonesian  | Vietnamese |
 |:--------------------:|:----------:|:------------:|:----------:|
 | GigaSpeech 2 raw     |  12901.8   | 8112.9       | 7324.0     |
 | GigaSpeech 2 refined |  10262.0   | 5714.0       | 6039.0     |
 
+GigaSpeech 2 raw contains all the data from GigaSpeech 2 refined.
+
+### Evaluation Subsets
+|                      |    Thai    |  Indonesian  | Vietnamese |
+|:--------------------:|:----------:|:------------:|:----------:|
+| GigaSpeech 2 dev     |   10.0     | 10.0         | 10.2       |
+| GigaSpeech 2 test    |   10.0     | 10.0         | 11.0       |
+
+Evaluation subsets are **annotated by professional human annotators**.
 
 ### Preparation Scripts
 [TODO]
