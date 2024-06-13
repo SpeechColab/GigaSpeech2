@@ -64,8 +64,23 @@ Evaluation subsets are **annotated by professional human annotators**.
 ### Text Pre-Processing
 [TODO]
 
+## Collaboration
+We are a group of volunteers trying to make speech technologies easier to use. We welcome any kind of contributions. Currently, we are exploring the following directions. If you are interested in one of the directions and you think you will be able to help, please contact gigaspeech@speechcolab.org.
+
+* Inference architecture for different pre-trained models
+* Adding diverse audio source
+* Benchmarking speech algorithms/services
+* Building and releasing pre-trained models
+* Supporting more languages
+* Making new datasets with permissive licenses
+
 ## Institutional Contributors
-[TODO]
+|  Institution | Contribution |
+|:------|:-----|
+| [MoE Key Lab of Artificial Intelligence, X-LANCE Lab, Shanghai Jiao Tong University](https://www.seiee.sjtu.edu.cn/) | Computing power; Data host; Researchers |
+| [Dept EE, Tsinghua University](https://www.ee.tsinghua.edu.cn/en/) | Researchers |
+| [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html) | Researchers |
+| [Dataocean AI](https://en.haitianruisheng.com/) | Evaluation data annotation |
 
 ## Citation
 Please cite our paper if you find this work useful:
