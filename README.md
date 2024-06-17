@@ -67,6 +67,19 @@ Transcripts are normalized by applying NFKC, converting all characters to upperc
 ### Text Post-Processing (before scoring)
 We standardize by applying NFKC, converting all characters to uppercase, removing punctuation, and merging consecutive whitespace or removing all whitespace from both hypothesis and reference text before CER/WER scoring to ensure apple-to-apple performance comparisons across different toolkits or commercial services.
 
+```python
+import string
+import unicodedata
+
+def text_post_processing(text):
+    text = unicodedata.normalize("NFKC", text)  # apply NFKC
+    text = text.upper()  # convert to uppercase
+    text = text.replace('-', ' ')  # remove hyphen
+    text = re.sub("[{}]".format(string.punctuation), "", text)  # remove punctuation
+    text = re.sub(r"\s+", "", text).strip()  # remove all whitespace for Thai
+    return text
+```
+
 ## Collaboration
 We are a group of volunteers trying to make speech technologies easier to use. We welcome any kind of contributions. Currently, we are exploring the following directions. If you are interested in one of the directions and you think you will be able to help, please contact gigaspeech@speechcolab.org.
 
