@@ -14,7 +14,7 @@ GigaSpeech 2 version: 2.0 (TODO)
 </div>
 
 ## Download
-[TODO]
+Very soon available at [GigaSpeech 2 On HuggingFace](https://huggingface.co/datasets/speechcolab/gigaspeech2)
 
 ## Leaderboard
 
