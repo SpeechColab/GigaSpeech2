@@ -59,7 +59,7 @@ Evaluation subsets are **annotated by professional human annotators**.
 [TODO]
 
 ### Audio Processing
-[TODO]
+GigaSpeech 2 audio files are resampled to 16 kHz and converted to single-channel WAV format. For detailed implementation, refer to [pipeline/convert_transcribe/convert_and_transcribe.py](https://github.com/yfyeung/GigaSpeech2/blob/main/pipeline/convert_transcribe/convert_and_transcribe.py#L45).
 
 ### Text Pre-Processing
 [TODO]
