@@ -67,6 +67,8 @@ Transcripts are normalized by applying NFKC, converting all characters to upperc
 ### Text Post-Processing (before scoring)
 We standardize by applying NFKC, converting all characters to uppercase, removing punctuation, and merging consecutive whitespace or removing all whitespace from both hypothesis and reference text before CER/WER scoring to ensure apple-to-apple performance comparisons across different toolkits or commercial services.
 
+We also provide the following code snippet, which is used in all the experiments reported in our paper and leaderboard.
+
 ```python
 import string
 import unicodedata
