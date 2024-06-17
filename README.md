@@ -65,7 +65,7 @@ GigaSpeech 2 audio files are resampled to 16 kHz and converted to single-channel
 Transcripts are normalized by applying NFKC, converting all characters to uppercase, removing punctuation, and mapping Arabic numerals to words in the respective languages.
 
 ### Text Post-Processing (before scoring)
-We standardize by applying NFKC, converting all characters to uppercase, removing punctuation, and merging consecutive whitespace or removing all whitespace from ONLY HYPOTHESIS text before CER/WER scoring.
+We standardize by applying NFKC, converting all characters to uppercase, removing punctuation, and merging consecutive whitespace or removing all whitespace from ONLY THE HYPOTHESIS text before CER/WER scoring to ensure apple-to-apple performance comparisons across different toolkits or commercial services.
 
 ## Collaboration
 We are a group of volunteers trying to make speech technologies easier to use. We welcome any kind of contributions. Currently, we are exploring the following directions. If you are interested in one of the directions and you think you will be able to help, please contact gigaspeech@speechcolab.org.
