@@ -107,7 +107,7 @@ We are a group of volunteers trying to make speech technologies easier to use. W
 Please cite our paper if you find this work useful:
 ```
 @article{yang2024gigaspeech2,
-  title={GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement },
+  title={GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement},
   author={Yifan Yang and Zheshu Song and Jianheng Zhuo and Mingyu Cui and Jinpeng Li and Bo Yang and Yexing Du and Ziyang Ma and Xunying Liu and Ziyuan Wang and Ke Li and Shuai Fan and Kai Yu and Wei-Qiang Zhang and Guoguo Chen and Xie Chen},
   journal={arXiv preprint arXiv:2406.11546},
   year={2024},
