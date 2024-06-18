@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
 </div>
 
-This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [TODO]
+This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our preprint paper: [arxiv](http://arxiv.org/abs/2406.11546).
 
 GigaSpeech 2 version: 2.0 (TODO)
 
@@ -109,7 +109,7 @@ Please cite our paper if you find this work useful:
 @article{yang2024gigaspeech2,
   title={GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement },
   author={Yifan Yang and Zheshu Song and Jianheng Zhuo and Mingyu Cui and Jinpeng Li and Bo Yang and Yexing Du and Ziyang Ma and Xunying Liu and Ziyuan Wang and Ke Li and Shuai Fan and Kai Yu and Wei-Qiang Zhang and Guoguo Chen and Xie Chen},
-  journal={arXiv preprint arXiv:2406.TODO},
+  journal={arXiv preprint arXiv:2406.11546},
   year={2024},
 }
 ```
