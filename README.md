@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
 </div>
 
-This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our [arxiv preprint paper](https://arxiv.org/pdf/2406.11546).
+This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our [arXiv preprint paper](https://arxiv.org/pdf/2406.11546).
 
 GigaSpeech 2 version: 2.0 (TODO)
 
