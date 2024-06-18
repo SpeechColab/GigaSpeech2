@@ -76,7 +76,7 @@ import unicodedata
 def text_post_processing(text):
     text = unicodedata.normalize("NFKC", text)  # apply NFKC
     text = text.upper()  # convert to uppercase
-    text = text.replace('-', ' ')  # remove hyphen
+    text = text.replace("-", " ")  # remove hyphen
     text = re.sub("[{}]".format(string.punctuation), "", text)  # remove punctuation
     text = re.sub(r"\s+", "", text).strip()  # remove all whitespace for Thai
     return text
