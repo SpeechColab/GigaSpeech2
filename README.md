@@ -14,7 +14,7 @@ GigaSpeech 2 version: 2.0 (2024/06/19)
 </div>
 
 ## Download
-The dataset is available at [GigaSpeech 2 On HuggingFace](https://huggingface.co/datasets/speechcolab/gigaspeech2)
+The dataset is available at [GigaSpeech 2 on HuggingFace](https://huggingface.co/datasets/speechcolab/gigaspeech2)
 
 ## Leaderboard
 
