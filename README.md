@@ -7,7 +7,7 @@
 
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our [arXiv preprint paper](https://arxiv.org/pdf/2406.11546).
 
-GigaSpeech 2 version: 2.0 (TODO)
+GigaSpeech 2 version: 2.0 (2024/06/19)
 
 <div align="left">
     <p><img src="https://github.com/yfyeung/GigaSpeech2/blob/main/docs/source/_static/pipeline.png" width=800></p>
