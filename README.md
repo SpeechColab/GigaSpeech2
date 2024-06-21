@@ -47,8 +47,8 @@ GigaSpeech 2 raw contains all the data from GigaSpeech 2 refined.
 ### Evaluation Subsets
 |                      | Thai (hours) | Indonesian (hours) | Vietnamese (hours) |
 |:--------------------:|:------------:|:------------------:|:------------------:|
-| GigaSpeech 2 dev     |     10.0     |       10.0         |       10.2         |
-| GigaSpeech 2 test    |     10.0     |       10.0         |       11.0         |
+| GigaSpeech 2 DEV     |     10.0     |       10.0         |       10.2         |
+| GigaSpeech 2 TEST    |     10.0     |       10.0         |       11.0         |
 
 Evaluation subsets are **annotated by professional human annotators**.
 
