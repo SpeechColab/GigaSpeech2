@@ -120,4 +120,4 @@ If you have any concerns, please contact gigaspeech@speechcolab.org.
 If you have any technical problems, please contact yifanyeung@sjtu.edu.cn.
 
 ## Metadata Changelog
-[TODO]
+- 2024/06/19 v2.0: Initial release.
