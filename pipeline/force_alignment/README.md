@@ -7,7 +7,7 @@ pip install dataclasses
 ```
 
 ## Usage
-
+You need to specify the [ISO 639-2 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
 ```shell
-./force_align.sh ~/data/corpus ~/data/raw_alignment tha
+./force_align.sh ~/data/corpus ~/data/raw_alignment [ISO 639-2 language code]
 ```
