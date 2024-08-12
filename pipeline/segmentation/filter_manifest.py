@@ -23,7 +23,7 @@ class CharsetFilter(FilterStrategy):
         self.valid_pattern = re.compile(f"[^{valid_symbols}]")
 
     def apply(self, line):
-        return not self.valid_pattern.search(line)
+        return not self.valid_pattern.search(line["text"])
 
 
 class LanguageConfidenceFilter(FilterStrategy):
@@ -32,8 +32,20 @@ class LanguageConfidenceFilter(FilterStrategy):
         self.confidence_threshold = confidence_threshold
 
     def apply(self, line):
-        labels, probabilities = self.model.predict(line, k=1)
+        labels, probabilities = self.model.predict(line["text"], k=1)
         return probabilities[0] >= self.confidence_threshold
+
+
+class AudioDurationFilter(FilterStrategy):
+    def __init__(self, min_keep_duration=1, max_keep_duration=30):
+        self.min_keep_duration = min_keep_duration
+        self.max_keep_duration = max_keep_duration
+
+    def apply(self, line):
+        return (
+            line["duration"] >= self.min_keep_duration
+            and line["duration"] <= self.max_keep_duration
+        )
 
 
 class ContentFilter:
@@ -64,7 +76,7 @@ def filter_manifests(input_dir, output_dir, content_filter):
             for line in reader:
                 line = json.loads(line)
                 total_cnt += 1
-                if content_filter(line["text"]):
+                if content_filter(line):
                     writer.write(json.dumps(line) + "\n")
                     valid_cnt += 1
 
@@ -78,6 +90,7 @@ def main():
     strategies = [
         CharsetFilter(),
         LanguageConfidenceFilter(args.lid_model_path, 0.99),
+        AudioDurationFilter(2, 30),
     ]
     content_filter = ContentFilter(strategies)
     filter_manifests(args.input_dir, args.output_dir, content_filter)

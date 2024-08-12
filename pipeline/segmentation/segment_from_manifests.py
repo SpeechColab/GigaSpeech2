@@ -24,9 +24,6 @@ def main(args):
             segment_id = f"{audio_id}-{i}"
             line = json.loads(line)
 
-            if line["duration"] < 2 or line["duration"] > 30:
-                continue
-
             audio_filepath = line["audio_filepath"]
             audio_start_sec = line["audio_start_sec"]
             audio_end_sec = audio_start_sec + line["duration"]
