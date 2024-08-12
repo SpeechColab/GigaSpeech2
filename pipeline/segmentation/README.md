@@ -18,6 +18,7 @@ python filter_manifest.py \
 ```
 
 ### Segmentation the audio files
+Note that the `filtered corpus directory` is the output of `filter_manifest.py`.
 ```shell
 ./segment.sh [filtered corpus directory] [output directory]
 ```
