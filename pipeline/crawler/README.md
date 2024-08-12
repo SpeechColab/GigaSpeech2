@@ -15,6 +15,7 @@ Kun's Official Channel  @kunsofficialchannel6831
 ```
 
 ### Start the download process
+You need to specify the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
 ```
-./download_from_youtube_channels.sh channels.txt ~/download th
+./download_from_youtube_channels.sh channels.txt ~/download zh
 ```
