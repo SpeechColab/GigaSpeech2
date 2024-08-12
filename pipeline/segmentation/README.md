@@ -12,12 +12,12 @@ vim filter_manifest.py
 ### Filter the segments
 ```shell
 python filter_manifest.py \
-  --input-dir ~/data/raw_alignment \
-  --output-dir ~/data/alignment \
-  --lid-model-path /tmp/lid.176.bin
+  --input-dir [corpus directory] \
+  --output-dir [output directory] \
+  --lid-model-path [path to lid.176.bin]
 ```
 
 ### Segmentation the audio files
 ```shell
-./segment.sh ~/data/alignment ~/data/clip
+./segment.sh [filtered corpus directory] [output directory]
 ```
