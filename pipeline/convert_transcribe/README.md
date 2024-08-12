@@ -21,14 +21,14 @@ pip install faster-whisper
 ```shell
 # Standard Whisper
 python convert_and_transcribe.py
-  --lang th \
-  --root-dir ~/download \
-  --save-dir ~/data
+  --lang [ISO 639-1 language code] \
+  --root-dir [downloaded audio directory] \
+  --save-dir [output directory]
 
 # Faster whisper
 python convert_and_transcribe.py
-  --lang th \
-  --root-dir ~/download \
-  --save-dir ~/data \
+  --lang [ISO 639-1 language code] \
+  --root-dir [downloaded audio directory] \
+  --save-dir [output directory] \
   --use-faster-whisper True
 ```
