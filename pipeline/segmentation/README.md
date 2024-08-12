@@ -1,4 +1,9 @@
 ## Usage
+### Installation
+```shell
+pip install fasttext
+```
+
 ### Download the language identification model
 ```shell
 wget -P /tmp https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
