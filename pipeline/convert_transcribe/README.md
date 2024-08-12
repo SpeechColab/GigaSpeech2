@@ -25,7 +25,7 @@ python convert_and_transcribe.py
   --root-dir [downloaded audio directory] \
   --save-dir [output directory]
 
-# Faster whisper
+# Faster Whisper
 python convert_and_transcribe.py
   --lang [ISO 639-1 language code] \
   --root-dir [downloaded audio directory] \
