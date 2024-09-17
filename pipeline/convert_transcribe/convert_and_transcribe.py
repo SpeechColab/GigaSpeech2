@@ -130,7 +130,7 @@ def wav2whisper(args):
 
         model = whisper.load_model(args.model_size)
         n_mels = 128 if "large" in args.model_size else 80
-        writer = get_writer("all", args.sub_dir)
+        writer = get_writer("txt", args.sub_dir)
         for wav in tqdm(wavs):
             audio_path = os.path.join(wav_dir, wav)
             lang = detect_language(audio_path)
