@@ -1,9 +1,5 @@
 # GigaSpeech 2
-<div align="left">
-    <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="Linux">
-    <img src="https://img.shields.io/badge/TorchAudio-2.1.0%2B-orange" alt="TorchAudio">
-    <img src="https://img.shields.io/badge/License-Apache2.0-red" alt="Apache2.0">
-</div>
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/pdf/2406.11546)  [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/speechcolab/gigaspeech2)  [![GitHub](https://img.shields.io/badge/GitHub-Repo-green)](https://github.com/SpeechColab/GigaSpeech2)  [![demo](https://img.shields.io/badge/WebPage-Demo-red)](https://huggingface.co/spaces/k2-fsa/automatic-speech-recognition)
 
 This is the official repository of the GigaSpeech 2 dataset. For details of how we created the dataset, please refer to our [arXiv preprint paper](https://arxiv.org/pdf/2406.11546).
 
