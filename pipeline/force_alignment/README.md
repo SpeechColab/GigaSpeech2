@@ -14,5 +14,5 @@ You need to specify the [ISO 639-2 language code](https://en.wikipedia.org/wiki/
 
 For example:
 ```shell
-./force_align.sh ./data ./output zho
+./force_align.sh ./output_trans ./output_force_align zho
 ```
