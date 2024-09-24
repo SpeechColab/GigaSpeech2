@@ -32,3 +32,19 @@ python convert_and_transcribe.py
   --save-dir [output directory] \
   --use-faster-whisper True
 ```
+
+For example:
+```shell
+# Standard Whisper
+python convert_and_transcribe.py
+  --lang zh \
+  --root-dir ./download \
+  --save-dir ./data
+
+# Faster Whisper
+python convert_and_transcribe.py
+  --lang zh \
+  --root-dir ./download \
+  --save-dir ./data \
+  --use-faster-whisper True
+```
