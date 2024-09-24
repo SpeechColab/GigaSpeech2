@@ -39,12 +39,12 @@ For example:
 python convert_and_transcribe.py
   --lang zh \
   --root-dir ./download \
-  --save-dir ./data
+  --save-dir ./output_trans
 
 # Faster Whisper
 python convert_and_transcribe.py
   --lang zh \
   --root-dir ./download \
-  --save-dir ./data \
+  --save-dir ./output_trans \
   --use-faster-whisper True
 ```
