@@ -11,3 +11,8 @@ You need to specify the [ISO 639-2 language code](https://en.wikipedia.org/wiki/
 ```shell
 ./force_align.sh [corpus directory] [output directory] [ISO 639-2 language code]
 ```
+
+For example:
+```shell
+./force_align.sh ./data ./output zho
+```
