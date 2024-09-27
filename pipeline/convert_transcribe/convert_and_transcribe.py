@@ -139,7 +139,7 @@ def wav2whisper(args):
                 with open(error_files, "a", encoding="utf-8") as f:
                     f.write(f"Expect {args.lang} Detected: {lang} {audio_path}\n")
                 continue
-            subtitle = model.transcribe(audio_path, language=lang)
+            subtitle = model.transcribe(audio_path, language=lang, beam_size=5)
             writer(subtitle, audio_path)
 
 
