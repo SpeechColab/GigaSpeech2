@@ -4,10 +4,10 @@ corpus_dir=${2%/}
 output_dir=${3%/}
 lang=$4
 
-while IFS= read -r wav; do
-  id=$(basename "${wav}" .wav)
+while IFS= read -r text; do
+  id=$(basename "${text}" .txt)
   echo "Process $id"
-  text="${corpus_dir}/${id}.txt"
+  wav="${corpus_dir}/${id}.wav"
 
   python ../utils/force_alignment/align.py \
     -a $wav \
