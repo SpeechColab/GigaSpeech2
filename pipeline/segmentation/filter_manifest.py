@@ -53,7 +53,10 @@ class ContentFilter:
         self.strategies = strategies
 
     def __call__(self, line):
-        return all(strategy.apply(line) for strategy in self.strategies)
+        for strategy in self.strategies:
+            if not strategy.apply(line):
+                return False
+        return True
 
 
 def parse_args():
