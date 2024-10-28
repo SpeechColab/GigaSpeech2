@@ -17,17 +17,18 @@ pip install faster-whisper
 ```
 
 ## Usage
+Check language code in https://github.com/openai/whisper/blob/5979f03701209bb035a0a466f14131aeb1116cbb/whisper/tokenizer.py#L10-L111.
 
 ```shell
 # Standard Whisper
 python convert_and_transcribe.py
-  --lang [ISO 639-1 language code] \
+  --lang [whisper language code] \
   --root-dir [downloaded audio directory] \
   --save-dir [output directory]
 
 # Faster Whisper
 python convert_and_transcribe.py
-  --lang [ISO 639-1 language code] \
+  --lang [whisper language code] \
   --root-dir [downloaded audio directory] \
   --save-dir [output directory] \
   --use-faster-whisper True
