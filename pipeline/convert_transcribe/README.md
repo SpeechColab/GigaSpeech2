@@ -17,7 +17,7 @@ pip install faster-whisper
 ```
 
 ## Usage
-Check language code in https://github.com/openai/whisper/blob/5979f03701209bb035a0a466f14131aeb1116cbb/whisper/tokenizer.py#L10-L111.
+Refer to the language codes in the [Whisper repository](https://github.com/openai/whisper/blob/main/whisper/tokenizer.py#L10-L111). 
 
 ```shell
 # Standard Whisper
