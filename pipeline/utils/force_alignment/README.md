@@ -1,5 +1,5 @@
-# Force Alignment for Gigaspeech 2
-Mainly from [fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms/data_prep), modified for force alignment in Gigaspeech 2
+# Force Alignment for GigaSpeech 2
+Mainly from [fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms/data_prep), modified for force alignment in GigaSpeech 2
 # Data Preparation 
 
 We describe the process of aligning long audio files with their transcripts and generating shorter audio segments below. 
