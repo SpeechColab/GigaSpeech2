@@ -50,7 +50,7 @@ GigaSpeech 2 raw contains all the data from GigaSpeech 2 refined.
 Evaluation subsets are **annotated by professional human annotators**.
 
 ### Preparation Scripts
-Soon available at [Lhotse](https://github.com/lhotse-speech/lhotse) and [ESPNet](https://github.com/espnet/espnet).
+Soon available at [Lhotse](https://github.com/lhotse-speech/lhotse).
 
 ### Metadata Walkthrough
 Soon available.
