@@ -97,7 +97,7 @@ We are a group of volunteers trying to make speech technologies easier to use. W
 | [Tsinghua University](https://www.ee.tsinghua.edu.cn/en/) | Researchers |
 | [Seasalt AI](https://seasalt.ai/) | Researchers |
 | [Birch AI](https://birch.ai/) | Researchers |
-| [Peng Cheng Laboratory](https://data-starcloud.pcl.ac.cn/) | Computing power |
+| [Peng Cheng Laboratory](https://data-starcloud.pcl.ac.cn/) | Researchers; Computing power |
 | [Dataocean AI](https://en.haitianruisheng.com/) | Evaluation data annotation |
 
 ## Citation
