@@ -114,7 +114,5 @@ Please cite our paper if you find this work useful:
 ## Contact
 If you have any concerns, please contact gigaspeech@speechcolab.org.
 
-If you have any technical problems, please contact yifanyeung@sjtu.edu.cn.
-
 ## Metadata Changelog
 - 2024/06/19 v2.0: Initial release.
