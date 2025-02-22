@@ -15,7 +15,7 @@ Kun's Official Channel  @kunsofficialchannel6831
 ```
 
 ### Get the cookies from the browser
-You need to save the cookies in a text file (e.g., cookies.txt) using the Netscape format.
+You need to save the cookies in a text file (e.g., `cookies.txt`) using the Netscape format.
 
 ### Start the download process
 ```shell
