@@ -16,8 +16,8 @@ do
   echo "Processing channel: $channel, channel name: $channel_name"
   yt-dlp -f 'ba' \
     --download-archive $log_dir/audios_$channel_name.txt \
+    --cookies cookies.txt \
     https://www.youtube.com/${channel}/videos -o ${2}/$channel_name'/%(title).20s#%(channel_id)s#%(id)s_%(duration)s.%(ext)s' \
     > $log_dir/$channel_name.log
 done < $1
 echo "Finished."
-
