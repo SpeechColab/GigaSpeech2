@@ -99,7 +99,7 @@ def wav2whisper(args):
         model = WhisperModel(args.model_size, device="cuda", compute_type="float16")
         for wav in tqdm(wavs):
             audio_path = os.path.join(wav_dir, wav)
-            segments, info = model.transcribe(audio_path, beam_size=5)
+            segments, info = model.transcribe(audio_path, language=lang, beam_size=5)
             if info.language != args.lang:
                 print(f"Expect {args.lang} Detected: {info.language} {audio_path}")
                 with open(error_files, "a") as f:
