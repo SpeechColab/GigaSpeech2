@@ -16,7 +16,7 @@ GigaSpeech 2 version: 2.0 (2024/06/19)
 ## Leaderboard
 
 | **Contributor**| **Toolkit**       | **Train Recipe**     | **Train Data** |**Test CER/WER**    |
-|:---------------|:------------------|:------------------|:------------------|:------------------|:------------------:|
+|:---------------|:------------------|:------------------|:------------------|:------------------|
 |||||
 | <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 th | 12.46 | 
 | <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 id | 14.92 | 
