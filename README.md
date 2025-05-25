@@ -15,15 +15,15 @@ GigaSpeech 2 version: 2.0 (2024/06/19)
 
 ## Leaderboard
 
-| **Contributor**| **Toolkit**       | **Train Recipe**     | **Train Data** | **Inference**     |**Test CER/WER**    |
+| **Contributor**| **Toolkit**       | **Train Recipe**     | **Train Data** |**Test CER/WER**    |
 |:---------------|:------------------|:------------------|:------------------|:------------------|:------------------:|
 |||||
-| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 th | TODO | 12.46 | 
-| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 id | TODO | 14.92 | 
-| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 vi | TODO | 12.83 | 
-| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 th | TODO | 13.70 |
-| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 id | TODO | 15.50 |
-| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 vi | TODO | 14.60 |
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 th | 12.46 | 
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 id | 14.92 | 
+| <em>Baseline</em>   | [Icefall](https://github.com/k2-fsa/icefall) | Zipformer/Stateless pruned RNN-T | GigaSpeech 2.0 vi | 12.83 | 
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 th | 13.70 |
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 id | 15.50 |
+| <em>Baseline</em>    | [ESPNet](https://github.com/espnet/espnet) | Conformer/Transformer CTC/AED | GigaSpeech 2.0 vi | 14.60 |
 
 ## Dataset
 
@@ -51,9 +51,6 @@ Evaluation subsets are **annotated by professional human annotators**.
 
 ### Preparation Scripts
 Soon available at [Lhotse](https://github.com/lhotse-speech/lhotse).
-
-### Metadata Walkthrough
-Soon available.
 
 ### Audio Processing
 GigaSpeech 2 audio files are resampled to 16 kHz and converted to single-channel WAV format. For detailed implementation, refer to [pipeline/convert_transcribe/convert_and_transcribe.py](https://github.com/yfyeung/GigaSpeech2/blob/main/pipeline/convert_transcribe/convert_and_transcribe.py#L45).
@@ -103,11 +100,12 @@ We are a group of volunteers trying to make speech technologies easier to use. W
 ## Citation
 Please cite our paper if you find this work useful:
 ```
-@article{gigaspeech2,
+@inproceedings{gigaspeech2,
   title={GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement},
   author={Yifan Yang and Zheshu Song and Jianheng Zhuo and Mingyu Cui and Jinpeng Li and Bo Yang and Yexing Du and Ziyang Ma and Xunying Liu and Ziyuan Wang and Ke Li and Shuai Fan and Kai Yu and Wei-Qiang Zhang and Guoguo Chen and Xie Chen},
-  journal={arXiv preprint arXiv:2406.11546},
-  year={2024},
+  booktitle={Proc. ACL},
+  year={2025},
+  address={Vienna},
 }
 ```
 
