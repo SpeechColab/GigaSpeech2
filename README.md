@@ -72,7 +72,7 @@ def text_post_processing(text):
     text = text.upper()  # convert to uppercase
     text = text.replace("-", " ")  # remove hyphen
     text = re.sub("[{}]".format(string.punctuation), "", text)  # remove punctuation
-    text = re.sub(r"\s+", "", text).strip()  # remove all whitespace for Thai
+    text = re.sub(r"\s+", "", text).strip()  # remove all whitespace ONLY for Thai
     return text
 ```
 
@@ -89,7 +89,7 @@ We are a group of volunteers trying to make speech technologies easier to use. W
 ## Institutional Contributors
 |  Institution | Contribution |
 |:------|:-----|
-| [Shanghai Jiao Tong University](https://www.seiee.sjtu.edu.cn/) | Computing power; Data host; Researchers |
+| [Shanghai Jiao Tong University](https://www.seiee.sjtu.edu.cn/) | Researchers; Computing power; Data host |
 | [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html) | Researchers |
 | [Tsinghua University](https://www.ee.tsinghua.edu.cn/en/) | Researchers |
 | [Seasalt AI](https://seasalt.ai/) | Researchers |
