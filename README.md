@@ -11,7 +11,7 @@ GigaSpeech 2 version: 2.0 (2024/06/19)
 
 ## Download
 * The dataset is available at [HuggingFace](https://huggingface.co/datasets/speechcolab/gigaspeech2) and [ModelScope](https://modelscope.cn/datasets/AI-ModelScope/gigaspeech2).
-* The pre-trained models are available at [Thai](https://huggingface.co/yfyeung/icefall-asr-gigaspeech2-th-zipformer-2024-06-20) and [Vietnamese](https://huggingface.co/zzasdf/icefall-asr-gigaspeech2-vi-zipformer).
+* The pre-trained models are available at [Thai 10000h](https://huggingface.co/yfyeung/icefall-asr-gigaspeech2-th-zipformer-2024-06-20) and [Vietnamese 70000h](https://huggingface.co/zzasdf/viet_iter3_pseudo_label).
 
 ## Leaderboard
 
