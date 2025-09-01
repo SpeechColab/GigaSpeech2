@@ -50,7 +50,10 @@ GigaSpeech 2 raw contains all the data from GigaSpeech 2 refined.
 Evaluation subsets are **annotated by professional human annotators**.
 
 ### Preparation Scripts
-Soon available at [Lhotse](https://github.com/lhotse-speech/lhotse).
+Available at [Lhotse](https://github.com/lhotse-speech/lhotse).
+```shell
+lhotse prepare gigaspeech2
+```
 
 ### Audio Processing
 GigaSpeech 2 audio files are resampled to 16 kHz and converted to single-channel WAV format. For detailed implementation, refer to [pipeline/convert_transcribe/convert_and_transcribe.py](https://github.com/yfyeung/GigaSpeech2/blob/main/pipeline/convert_transcribe/convert_and_transcribe.py#L45).
