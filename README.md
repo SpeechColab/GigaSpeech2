@@ -50,9 +50,9 @@ GigaSpeech 2 raw contains all the data from GigaSpeech 2 refined.
 Evaluation subsets are **annotated by professional human annotators**.
 
 ### Preparation Scripts
-Available at [Lhotse](https://github.com/lhotse-speech/lhotse).
 ```shell
-lhotse prepare gigaspeech2
+pip install lhotse
+lhotse prepare gigaspeech2 [OPTIONS] CORPUS_DIR OUTPUT_DIR
 ```
 
 ### Audio Processing
